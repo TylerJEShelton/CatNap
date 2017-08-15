@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D05F9B41F30DD0500565EAC /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05F9B31F30DD0500565EAC /* BlockNode.swift */; };
+		3D0C7D6F1F40B83F00236B41 /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D6E1F40B83F00236B41 /* Level3.sks */; };
+		3D0C7D711F40D78F00236B41 /* StoneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D701F40D78F00236B41 /* StoneNode.swift */; };
+		3D0C7D731F41011800236B41 /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D721F41011800236B41 /* Level4.sks */; };
+		3D0C7D791F412E7300236B41 /* disco-sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D771F412E7300236B41 /* disco-sound.m4a */; };
+		3D0C7D7A1F412E7300236B41 /* discolights-loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D781F412E7300236B41 /* discolights-loop.mov */; };
+		3D0C7D7C1F41395A00236B41 /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D7B1F41395A00236B41 /* Level5.sks */; };
+		3D0C7D7E1F41395E00236B41 /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D7D1F41395E00236B41 /* Level6.sks */; };
+		3D0C7D801F41478A00236B41 /* PictureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D7F1F41478A00236B41 /* PictureNode.swift */; };
+		3D0C7D821F4159CC00236B41 /* DiscoBallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D811F4159CC00236B41 /* DiscoBallNode.swift */; };
+		3D3F71731F3BFDB8009BA0FD /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F71721F3BFDB8009BA0FD /* Level2.sks */; };
+		3D3F71751F3C028F009BA0FD /* SpringNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F71741F3C028F009BA0FD /* SpringNode.swift */; };
+		3D3F71781F3F692E009BA0FD /* HookBaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F71771F3F692E009BA0FD /* HookBaseNode.swift */; };
+		3D7B9E301F360AF1001594B2 /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B9E2F1F360AF1001594B2 /* MessageNode.swift */; };
+		3D7FACE81F428F8E00D8AD5E /* HintNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7FACE71F428F8E00D8AD5E /* HintNode.swift */; };
 		3DBC9E9D1F2D889F00AABB8E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBC9E911F2D889F00AABB8E /* CGFloat+Extensions.swift */; };
 		3DBC9E9E1F2D889F00AABB8E /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBC9E921F2D889F00AABB8E /* CGPoint+Extensions.swift */; };
 		3DBC9E9F1F2D889F00AABB8E /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBC9E931F2D889F00AABB8E /* CGVector+Extensions.swift */; };
@@ -22,7 +37,7 @@
 		3DD08D6D1F23F7A100341101 /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD08D6C1F23F7A100341101 /* BedNode.swift */; };
 		3DD08D6F1F23FD5700341101 /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD08D6E1F23FD5700341101 /* CatNode.swift */; };
 		F0148A731F1A5A73003E7963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0148A721F1A5A73003E7963 /* AppDelegate.swift */; };
-		F0148A751F1A5A73003E7963 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F0148A741F1A5A73003E7963 /* GameScene.sks */; };
+		F0148A751F1A5A73003E7963 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = F0148A741F1A5A73003E7963 /* Level1.sks */; };
 		F0148A771F1A5A73003E7963 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F0148A761F1A5A73003E7963 /* Actions.sks */; };
 		F0148A791F1A5A73003E7963 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0148A781F1A5A73003E7963 /* GameScene.swift */; };
 		F0148A7B1F1A5A73003E7963 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0148A7A1F1A5A73003E7963 /* GameViewController.swift */; };
@@ -40,6 +55,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D05F9B31F30DD0500565EAC /* BlockNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
+		3D0C7D6E1F40B83F00236B41 /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		3D0C7D701F40D78F00236B41 /* StoneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneNode.swift; sourceTree = "<group>"; };
+		3D0C7D721F41011800236B41 /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		3D0C7D771F412E7300236B41 /* disco-sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "disco-sound.m4a"; sourceTree = "<group>"; };
+		3D0C7D781F412E7300236B41 /* discolights-loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "discolights-loop.mov"; sourceTree = "<group>"; };
+		3D0C7D7B1F41395A00236B41 /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
+		3D0C7D7D1F41395E00236B41 /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
+		3D0C7D7F1F41478A00236B41 /* PictureNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureNode.swift; sourceTree = "<group>"; };
+		3D0C7D811F4159CC00236B41 /* DiscoBallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoBallNode.swift; sourceTree = "<group>"; };
+		3D3F71721F3BFDB8009BA0FD /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		3D3F71741F3C028F009BA0FD /* SpringNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringNode.swift; sourceTree = "<group>"; };
+		3D3F71771F3F692E009BA0FD /* HookBaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookBaseNode.swift; sourceTree = "<group>"; };
+		3D7B9E2F1F360AF1001594B2 /* MessageNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
+		3D7FACE71F428F8E00D8AD5E /* HintNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintNode.swift; sourceTree = "<group>"; };
 		3DBC9E911F2D889F00AABB8E /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		3DBC9E921F2D889F00AABB8E /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		3DBC9E931F2D889F00AABB8E /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
@@ -56,7 +86,7 @@
 		3DD08D6E1F23FD5700341101 /* CatNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
 		F0148A6F1F1A5A73003E7963 /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0148A721F1A5A73003E7963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0148A741F1A5A73003E7963 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F0148A741F1A5A73003E7963 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
 		F0148A761F1A5A73003E7963 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		F0148A781F1A5A73003E7963 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F0148A7A1F1A5A73003E7963 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +115,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0C7D761F412E7300236B41 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C7D771F412E7300236B41 /* disco-sound.m4a */,
+				3D0C7D781F412E7300236B41 /* discolights-loop.mov */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		3D3F71761F3C02A6009BA0FD /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				3DD08D6C1F23F7A100341101 /* BedNode.swift */,
+				3D05F9B31F30DD0500565EAC /* BlockNode.swift */,
+				3DD08D6E1F23FD5700341101 /* CatNode.swift */,
+				3D3F71771F3F692E009BA0FD /* HookBaseNode.swift */,
+				3D7B9E2F1F360AF1001594B2 /* MessageNode.swift */,
+				3D3F71741F3C028F009BA0FD /* SpringNode.swift */,
+				3D0C7D701F40D78F00236B41 /* StoneNode.swift */,
+				3D0C7D7F1F41478A00236B41 /* PictureNode.swift */,
+				3D0C7D811F4159CC00236B41 /* DiscoBallNode.swift */,
+				3D7FACE71F428F8E00D8AD5E /* HintNode.swift */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
 		3DBC9E901F2D889F00AABB8E /* SKTUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,14 +182,13 @@
 				3DBC9E901F2D889F00AABB8E /* SKTUtils */,
 				F0D5358F1F1ADD1E000A05B2 /* Scenes */,
 				F0148A941F1A6268003E7963 /* Sounds */,
+				3D0C7D761F412E7300236B41 /* media */,
+				3D3F71761F3C02A6009BA0FD /* Nodes */,
 				F0148A721F1A5A73003E7963 /* AppDelegate.swift */,
-				F0148A761F1A5A73003E7963 /* Actions.sks */,
 				F0148A781F1A5A73003E7963 /* GameScene.swift */,
-				3DD08D6E1F23FD5700341101 /* CatNode.swift */,
-				3DD08D6C1F23F7A100341101 /* BedNode.swift */,
 				F0148A7A1F1A5A73003E7963 /* GameViewController.swift */,
-				F0148A7C1F1A5A73003E7963 /* Main.storyboard */,
 				F0148A7F1F1A5A73003E7963 /* Assets.xcassets */,
+				F0148A7C1F1A5A73003E7963 /* Main.storyboard */,
 				F0148A811F1A5A73003E7963 /* LaunchScreen.storyboard */,
 				F0148A841F1A5A73003E7963 /* Info.plist */,
 			);
@@ -155,10 +210,16 @@
 		F0D5358F1F1ADD1E000A05B2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				F0148A741F1A5A73003E7963 /* GameScene.sks */,
+				F0148A761F1A5A73003E7963 /* Actions.sks */,
 				F0D535901F1ADDA8000A05B2 /* Cat.sks */,
 				F0EBB0F11F1B1DBE004B9FDB /* CatCurl.sks */,
 				F0EBB0F31F1B1F0F004B9FDB /* CatWakeUp.sks */,
+				F0148A741F1A5A73003E7963 /* Level1.sks */,
+				3D3F71721F3BFDB8009BA0FD /* Level2.sks */,
+				3D0C7D6E1F40B83F00236B41 /* Level3.sks */,
+				3D0C7D721F41011800236B41 /* Level4.sks */,
+				3D0C7D7B1F41395A00236B41 /* Level5.sks */,
+				3D0C7D7D1F41395E00236B41 /* Level6.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -224,18 +285,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0148A7E1F1A5A73003E7963 /* Main.storyboard in Resources */,
-				F0148A751F1A5A73003E7963 /* GameScene.sks in Resources */,
+				3D3F71731F3BFDB8009BA0FD /* Level2.sks in Resources */,
+				F0148A751F1A5A73003E7963 /* Level1.sks in Resources */,
 				F0148A8F1F1A6263003E7963 /* backgroundMusic.mp3 in Resources */,
+				3D0C7D7A1F412E7300236B41 /* discolights-loop.mov in Resources */,
 				F0148A921F1A6263003E7963 /* pop.mp3 in Resources */,
+				3D0C7D731F41011800236B41 /* Level4.sks in Resources */,
 				F0EBB0F41F1B1F0F004B9FDB /* CatWakeUp.sks in Resources */,
 				F0EBB0F21F1B1DBE004B9FDB /* CatCurl.sks in Resources */,
 				F0148A801F1A5A73003E7963 /* Assets.xcassets in Resources */,
 				F0148A931F1A6263003E7963 /* win.mp3 in Resources */,
+				3D0C7D791F412E7300236B41 /* disco-sound.m4a in Resources */,
+				3D0C7D7C1F41395A00236B41 /* Level5.sks in Resources */,
+				3D0C7D6F1F40B83F00236B41 /* Level3.sks in Resources */,
 				F0148A911F1A6263003E7963 /* mrreow.mp3 in Resources */,
 				F0148A901F1A6263003E7963 /* lose.mp3 in Resources */,
 				F0148A831F1A5A73003E7963 /* LaunchScreen.storyboard in Resources */,
 				F0148A771F1A5A73003E7963 /* Actions.sks in Resources */,
 				F0D535911F1ADDA8000A05B2 /* Cat.sks in Resources */,
+				3D0C7D7E1F41395E00236B41 /* Level6.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +317,25 @@
 				3DBC9E9E1F2D889F00AABB8E /* CGPoint+Extensions.swift in Sources */,
 				3DBC9EA61F2D889F00AABB8E /* SKTEffects.swift in Sources */,
 				3DBC9EA11F2D889F00AABB8E /* SKAction+Extensions.swift in Sources */,
+				3D0C7D801F41478A00236B41 /* PictureNode.swift in Sources */,
 				F0148A791F1A5A73003E7963 /* GameScene.swift in Sources */,
 				3DBC9EA41F2D889F00AABB8E /* SKNode+Extensions.swift in Sources */,
 				3DD08D6F1F23FD5700341101 /* CatNode.swift in Sources */,
 				3DBC9EA71F2D889F00AABB8E /* SKTTimingFunctions.swift in Sources */,
+				3D0C7D711F40D78F00236B41 /* StoneNode.swift in Sources */,
+				3D0C7D821F4159CC00236B41 /* DiscoBallNode.swift in Sources */,
 				3DBC9EA21F2D889F00AABB8E /* SKAction+SpecialEffects.swift in Sources */,
 				3DBC9EA01F2D889F00AABB8E /* Int+Extensions.swift in Sources */,
+				3D05F9B41F30DD0500565EAC /* BlockNode.swift in Sources */,
+				3D7B9E301F360AF1001594B2 /* MessageNode.swift in Sources */,
+				3D7FACE81F428F8E00D8AD5E /* HintNode.swift in Sources */,
 				3DBC9EA81F2D889F00AABB8E /* Vector3.swift in Sources */,
 				3DD08D6D1F23F7A100341101 /* BedNode.swift in Sources */,
 				3DBC9EA31F2D889F00AABB8E /* SKColor+Extensions.swift in Sources */,
 				3DBC9E9F1F2D889F00AABB8E /* CGVector+Extensions.swift in Sources */,
 				F0148A7B1F1A5A73003E7963 /* GameViewController.swift in Sources */,
+				3D3F71781F3F692E009BA0FD /* HookBaseNode.swift in Sources */,
+				3D3F71751F3C028F009BA0FD /* SpringNode.swift in Sources */,
 				3DBC9EA51F2D889F00AABB8E /* SKTAudio.swift in Sources */,
 				3DBC9E9D1F2D889F00AABB8E /* CGFloat+Extensions.swift in Sources */,
 				F0148A731F1A5A73003E7963 /* AppDelegate.swift in Sources */,
@@ -387,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = LNHLG9FY3S;
 				INFOPLIST_FILE = CatNap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = LNHLG9FY3S;
 				INFOPLIST_FILE = CatNap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
